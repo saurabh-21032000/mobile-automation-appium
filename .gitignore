@@ -12,3 +12,4 @@ apps/
 .vscode/
 .classpath
 .project
+*.code-workspace
