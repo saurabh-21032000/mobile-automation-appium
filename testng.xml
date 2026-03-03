@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mobile Automation Test Suite" parallel="false">
+
+    <test name="Launch App Tests">
+        <classes>
+            <class name="tests.android.LaunchAppTest"/>
+        </classes>
+    </test>
+
+    <test name="Notification Permission Tests">
+        <classes>
+            <class name="tests.android.NotificationPermissionTest"/>
+        </classes>
+    </test>
+
+    <test name="Signup Tests">
+        <classes>
+            <class name="tests.android.SignupTest"/>
+        </classes>
+    </test>
+
+    <test name="Call Details Tests">
+        <classes>
+            <class name="tests.android.CallDetailsTest"/>
+        </classes>
+    </test>
+
+    <test name="Recharge Tests">
+        <classes>
+            <class name="tests.android.RechargeTest"/>
+        </classes>
+    </test>
+
+</suite>

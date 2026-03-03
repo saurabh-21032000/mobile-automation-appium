@@ -1,0 +1,14 @@
+{
+  "android": {
+    "platformName": "Android",
+    "appium:automationName": "UiAutomator2",
+    "appium:platformVersion": "13",
+    "appium:deviceName": "emulator-5554",
+    "appium:app": "/Users/vakeelsaab/Downloads/app-chuckerOn-debug-client.apk",
+    "appium:appPackage": "com.vakeelsaabclient",
+    "appium:appActivity": ".MainActivity",
+    "appium:noReset": false,
+    "appium:fullReset": true,
+    "appium:newCommandTimeout": 300
+  }
+}

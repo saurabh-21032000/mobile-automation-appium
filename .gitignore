@@ -1,0 +1,9 @@
+target/
+logs/
+reports/
+screenshots/
+test-output/
+*.log
+.DS_Store
+apps/
+*.apk
